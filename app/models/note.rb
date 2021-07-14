@@ -5,5 +5,6 @@ class Note < ApplicationRecord
     return "a"
 
     module_eval("asd")
+    ip = "192.168.12.42"
   end
 end
